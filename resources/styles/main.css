@@ -1,9 +1,13 @@
-/* Resetting default styles (link to reset.css is provided externally) */
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-blue-background: hsl(212, 45%, 89%);
+    --paragraph-color: hsla(219, 15%, 55%, 1);
 
+}
 /* Global body styles */
 body {
-    background-color: hsla(211, 45%, 89%, 1); /* Soft blue background */
-    height: 100vh; /* Full viewport height */
+    background-color: var(--light-blue-background); /* Soft blue background */
+    min-height: 100vh; /* Full viewport height */
     width: 100vw;  /* Full viewport width */
     display: flex; /* Flexbox layout */
     flex-direction: column; /* Vertical alignment */
@@ -16,7 +20,7 @@ body {
 
 /* Container for the QR Code and content */
 .qr-code-container {
-    background-color: white; /* White background for the container */
+    background-color: var(--white); /* White background for the container */
     border-radius: 1rem; /* Rounded corners */
     overflow: hidden; /* Hide any overflow content */
     max-width: 320px; /* Maximum width of the container */
@@ -27,6 +31,7 @@ body {
 /* QR Code Image Styles */
 img {
     border-radius: 0.5rem; /* Slightly rounded corners for the image */
+    width: 100%;
 }
 
 /* Content section styling */
@@ -46,5 +51,5 @@ h1 {
 /* Paragraph Styles */
 p {
     font-size: 0.9375rem; /* Font size for the paragraph */
-    color: hsla(219, 15%, 55%, 1)
+    color: var(--paragraph-color)
 }
