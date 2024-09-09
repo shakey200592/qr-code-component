@@ -40,10 +40,11 @@ img {
 h1 {
     font-size: 1.375rem; /* Font size for the heading */
     font-weight: 700; /* Bold text for the heading */
-    margin-bottom: 1rem; /* Space below the heading */
+    margin-bottom: 0.75rem; /* Space below the heading */
 }
 
 /* Paragraph Styles */
 p {
     font-size: 0.9375rem; /* Font size for the paragraph */
+    color: hsla(219, 15%, 55%, 1)
 }
