@@ -19,7 +19,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [solution URL](https://github.com/shakey200592/qr-code-component)
+- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/qr-component-responsive-css-KLkbRGgL-D)
 - Live Site URL: [live site URL](https://shakey200592.github.io/qr-code-component/)
 
 ### Built with
