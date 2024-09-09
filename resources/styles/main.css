@@ -8,7 +8,6 @@
 body {
     background-color: var(--light-blue-background); /* Soft blue background */
     min-height: 100vh; /* Full viewport height */
-    width: 100vw;  /* Full viewport width */
     display: flex; /* Flexbox layout */
     flex-direction: column; /* Vertical alignment */
     justify-content: center; /* Center content vertically */
@@ -16,6 +15,7 @@ body {
     font-family: "Outfit", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Font family */
     font-optical-sizing: auto; /* Optimizes text size based on screen */
     font-style: normal; /* Default font style */
+    box-shadow: 0 0 10px 0 rgb(0,0,0,0.9);
 }
 
 /* Container for the QR Code and content */
@@ -32,13 +32,15 @@ body {
 img {
     border-radius: 0.5rem; /* Slightly rounded corners for the image */
     width: 100%;
+    height: 60%;
 }
 
 /* Content section styling */
 .content {
     text-align: center; /* Center-align the text */
-    margin-bottom: 1rem; /* Space below the content */
-    padding: 0.75rem; /* Padding inside the content container */
+    margin-top: 0.9rem;
+    padding: 0 1rem;
+
 }
 
 /* Heading Styles */
@@ -46,6 +48,7 @@ h1 {
     font-size: 1.375rem; /* Font size for the heading */
     font-weight: 700; /* Bold text for the heading */
     margin-bottom: 0.75rem; /* Space below the heading */
+    line-height: 1;
 }
 
 /* Paragraph Styles */
